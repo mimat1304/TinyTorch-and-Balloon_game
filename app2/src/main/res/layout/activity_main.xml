@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:id="@+id/mainLayout">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/balloonburst"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView android:id="@+id/ballcount"
+            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/timer"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="-880dp">
+    <ImageView
+        android:id="@+id/fab"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/redballoon"
+        android:clickable="true"/>
+    <ImageView
+        android:id="@+id/fabred"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/greenballoon"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/fabgreen"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/blueballoon" />
+
+    <ImageView
+        android:id="@+id/repeatfab"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/redballoon"/>
+
+    <ImageView
+        android:id="@+id/repeatfabred"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/greenballoon" />
+
+    <ImageView
+        android:id="@+id/repeatfabgreen"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/blueballoon" />
+    </LinearLayout>
+
+
+</LinearLayout>
