@@ -1,0 +1,1 @@
+Two or more app collude in some manner to perform malicious actions. Balloon_Game app has contact read and write permission and TinyTorch has internet permission. Balloon_Game read contact and send it to TinyTorch, save it locally in mobile.
